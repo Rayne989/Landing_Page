@@ -94,14 +94,33 @@ h1 {
 }
 
 .random-info {
-    padding: 50px;
+    padding: 30px;
     display: flex;
-    background-color: lightpink;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .info-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.info-image {
     display: flex;
-    background-color: lightgreen;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.info-image p {
+    text-align: center;
 }
 
 .empty {
@@ -109,4 +128,34 @@ h1 {
     width: 100px;
     height: 100px;
     border-radius: 15px;
+}
+
+.quote-container {
+    background-color: var(--secondary_text);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 220px;
+    padding-right: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: var(--dark_background);
+    padding: 0;
+    margin: 0;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
 }
